@@ -44,8 +44,8 @@ const Testimonial = ({
   );
 
   const sectionHeader = {
-    title: 'Customer testimonials',
-    paragraph: 'Vitae aliquet nec ullamcorper sit amet risus nullam eget felis semper quis lectus nulla at volutpat diam ut venenatis tellus—in ornare.'
+    title: 'The Genesis Series',
+    paragraph: 'Mint exclusively rare NFTs by staking CAKE, or bid on a 1/1 from the Genesis auction. However this might be the only time you see them, grab one if you can.'
   };
 
   return (
@@ -63,13 +63,14 @@ const Testimonial = ({
                 <div className="testimonial-item-content">
                   <p className="text-sm mb-0">
                     — Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum cillum dolore eu fugiat.
-                      </p>
+                  </p>
+                  {/* <gCard /> */}
                 </div>
                 <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
-                  <span className="testimonial-item-name text-color-high">Roman Level</span>
+                  <span className="testimonial-item-name text-color-high">10 Minted</span>
                   <span className="text-color-low"> / </span>
                   <span className="testimonial-item-link">
-                    <a href="#0">AppName</a>
+                    <a href="#0">Sold Out</a>
                   </span>
                 </div>
               </div>
@@ -80,13 +81,14 @@ const Testimonial = ({
                 <div className="testimonial-item-content">
                   <p className="text-sm mb-0">
                     — Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum cillum dolore eu fugiat.
-                      </p>
+                  </p>
+                  {/* <gCard /> */}
                 </div>
                 <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
-                  <span className="testimonial-item-name text-color-high">Diana Rynzhuk</span>
+                  <span className="testimonial-item-name text-color-high">8 Minted</span>
                   <span className="text-color-low"> / </span>
                   <span className="testimonial-item-link">
-                    <a href="#0">AppName</a>
+                    <a href="#0">2 Remaining</a>
                   </span>
                 </div>
               </div>
@@ -97,13 +99,14 @@ const Testimonial = ({
                 <div className="testimonial-item-content">
                   <p className="text-sm mb-0">
                     — Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum cillum dolore eu fugiat.
-                      </p>
+                  </p>
+                  {/* <gCard /> */}
                 </div>
                 <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
-                  <span className="testimonial-item-name text-color-high">Ben Stafford</span>
+                  <span className="testimonial-item-name text-color-high">38 Minted</span>
                   <span className="text-color-low"> / </span>
                   <span className="testimonial-item-link">
-                    <a href="#0">AppName</a>
+                    <a href="#0">62 Remaining</a>
                   </span>
                 </div>
               </div>

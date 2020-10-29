@@ -44,8 +44,8 @@ const FeaturesTiles = ({
   );
 
   const sectionHeader = {
-    title: 'Build up the whole picture',
-    paragraph: 'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum — semper quis lectus nulla at volutpat diam ut venenatis.'
+    title: 'Mission: Reinvent Birthdays',
+    paragraph: 'Birthdays have not traditionally changed much over the course of history, but today everyone has a computer in their pocket. What will birthdays look like moving forward?'
   };
 
   return (
@@ -64,17 +64,17 @@ const FeaturesTiles = ({
                   <div className="features-tiles-item-image mb-16">
                     <Image
                       src={require('./../../assets/images/feature-tile-icon-01.svg')}
-                      alt="Features tile icon 01"
+                      alt="Crypto Art &amp; Collectibles"
                       width={64}
                       height={64} />
                   </div>
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Robust Workflow
+                    Art &amp; Collectibles
                     </h4>
                   <p className="m-0 text-sm">
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
+                    Whether it's artwork that changes over the course of the day, or racing your digital thoroughbred horse to win bets and trophies.
                     </p>
                 </div>
               </div>
@@ -86,18 +86,18 @@ const FeaturesTiles = ({
                   <div className="features-tiles-item-image mb-16">
                     <Image
                       src={require('./../../assets/images/feature-tile-icon-02.svg')}
-                      alt="Features tile icon 02"
+                      alt="Greeting Cards"
                       width={64}
                       height={64} />
                   </div>
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Robust Workflow
+                    Greeting Cards
                     </h4>
                   <p className="m-0 text-sm">
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
-                    </p>
+                    Create immersive video greetings personalized by you and others can create an everlasting memory that will never be lost in the mail.
+                  </p>
                 </div>
               </div>
             </div>
@@ -108,17 +108,17 @@ const FeaturesTiles = ({
                   <div className="features-tiles-item-image mb-16">
                     <Image
                       src={require('./../../assets/images/feature-tile-icon-03.svg')}
-                      alt="Features tile icon 03"
+                      alt="Scavenger Hunts"
                       width={64}
                       height={64} />
                   </div>
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Robust Workflow
+                    Scavenger Hunts
                     </h4>
                   <p className="m-0 text-sm">
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
+                    Hide greeting cards, collectibles, gift cards and pool winnings in an immersive AR journey personalized by friends and family.
                     </p>
                 </div>
               </div>
@@ -130,17 +130,17 @@ const FeaturesTiles = ({
                   <div className="features-tiles-item-image mb-16">
                     <Image
                       src={require('./../../assets/images/feature-tile-icon-04.svg')}
-                      alt="Features tile icon 04"
+                      alt="Gift Cards"
                       width={64}
                       height={64} />
                   </div>
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Robust Workflow
+                    Gift Cards
                     </h4>
                   <p className="m-0 text-sm">
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
+                    Mobile wallet friendly, no plastic needed these gift cards are built for the future, without the high activation fees or expiration periods.
                     </p>
                 </div>
               </div>
@@ -152,17 +152,17 @@ const FeaturesTiles = ({
                   <div className="features-tiles-item-image mb-16">
                     <Image
                       src={require('./../../assets/images/feature-tile-icon-05.svg')}
-                      alt="Features tile icon 05"
+                      alt="Gifting Pools"
                       width={64}
                       height={64} />
                   </div>
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Robust Workflow
+                    Gifting Pools
                     </h4>
                   <p className="m-0 text-sm">
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
+                    Pool your money with friends in a game of high stakes savings, withdraw your deposit anytime, but the last person gets all the interest.
                     </p>
                 </div>
               </div>
@@ -174,17 +174,17 @@ const FeaturesTiles = ({
                   <div className="features-tiles-item-image mb-16">
                     <Image
                       src={require('./../../assets/images/feature-tile-icon-06.svg')}
-                      alt="Features tile icon 06"
+                      alt="Gift Card Exchange"
                       width={64}
                       height={64} />
                   </div>
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Robust Workflow
+                    Gift Card Exchange
                     </h4>
                   <p className="m-0 text-sm">
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
+                    Yea, good luck trying to get rid of that unwanted gift card and if you do manage to find somewhere online to dump it, it's a struggle to do so.
                     </p>
                 </div>
               </div>

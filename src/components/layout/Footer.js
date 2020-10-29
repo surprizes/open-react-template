@@ -4,6 +4,7 @@ import classNames from 'classnames';
 import Logo from './partials/Logo';
 import FooterNav from './partials/FooterNav';
 import FooterSocial from './partials/FooterSocial';
+import {EthIcon, EthIconWrapper} from './../elements/Icons'
 
 const propTypes = {
   topOuterDivider: PropTypes.bool,
@@ -45,7 +46,7 @@ const Footer = ({
           </div>
           <div className="footer-bottom space-between text-xxs invert-order-desktop">
             <FooterNav />
-            <div className="footer-copyright">Made by <a href="https://cruip.com">Cruip</a>. All right reserved</div>
+            <div className="footer-copyright">&copy; 2020 | Built on Ethereum</div>
           </div>
         </div>
       </div>
