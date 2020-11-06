@@ -1,6 +1,6 @@
 import React from 'react';
 import classNames from 'classnames';
-import {TwitterIcon, MediumIcon, TelegramIcon} from "./../../elements/Icons"
+import {TwitterIcon, MediumIcon, DiscordIcon} from "./../../elements/Icons"
 
 const FooterSocial = ({
   className,
@@ -29,8 +29,8 @@ const FooterSocial = ({
           </a>
         </li>
         <li>
-          <a href="https://telegram.org/" target="_blank" rel="noopener noreferrer">
-          <TelegramIcon />
+          <a href="https://discord.com/" target="_blank" rel="noopener noreferrer">
+          <DiscordIcon />
           </a>
         </li>
       </ul>

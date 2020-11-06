@@ -4,7 +4,7 @@ import classNames from 'classnames';
 import Logo from './partials/Logo';
 import FooterNav from './partials/FooterNav';
 import FooterSocial from './partials/FooterSocial';
-import {EthIcon, EthIconWrapper} from './../elements/Icons'
+// import {EthIcon, EthIconWrapper} from './../elements/Icons'
 
 const propTypes = {
   topOuterDivider: PropTypes.bool,

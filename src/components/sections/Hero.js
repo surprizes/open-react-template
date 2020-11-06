@@ -4,7 +4,8 @@ import { SectionProps } from '../../utils/SectionProps';
 import ButtonGroup from '../elements/ButtonGroup';
 import Button from '../elements/Button';
 import Modal from '../elements/Modal';
-import GiftBox, {handleSvgClick} from "./../giftbox"
+// import GiftBox, {handleSvgClick} from "./../giftbox"
+import FortuneWheel, {handleSvgClick} from "./../FortuneWheel"
 
 const propTypes = {
   ...SectionProps.types
@@ -70,7 +71,7 @@ const Hero = ({
               <div className="reveal-from-bottom" data-reveal-delay="600">
                 <ButtonGroup>
                   <Button tag="a" color="light" wideMobile onClick={handleSvgClick}>
-                    Get Your Surprize
+                    Spin The Wheel
                     </Button>
                   <Button tag="a" color="dark" wideMobile href="#0">
                     Learn More
@@ -80,7 +81,8 @@ const Hero = ({
             </div>
           </div>
           <div className="hero-figure reveal-from-bottom illustration-element-01" data-reveal-value="20px" data-reveal-delay="800">
-            <GiftBox onClick={openModal}/>
+            {/* <GiftBox onClick={openModal}/> */}
+            <FortuneWheel onClick={handleSvgClick}/>
           </div>
           <Modal
             id="video-modal"

@@ -1,5 +1,5 @@
 import styled from "styled-components"
-import { FaMedium, FaTwitter, FaTelegramPlane, FaEthereum } from "react-icons/fa";
+import { FaMedium, FaTwitter, FaTelegramPlane, FaEthereum, FaDiscord } from "react-icons/fa";
 
 export const MediumIcon = styled(FaMedium)`
   margin-right: 0.2rem;
@@ -16,6 +16,13 @@ export const TwitterIcon = styled(FaTwitter)`
 `;
 
 export const TelegramIcon = styled(FaTelegramPlane)`
+  margin-right: 0.2rem;
+  width: 22px;
+  height: 22px;
+  margin-bottom: 5px;
+`;
+
+export const DiscordIcon = styled(FaDiscord)`
   margin-right: 0.2rem;
   width: 22px;
   height: 22px;
